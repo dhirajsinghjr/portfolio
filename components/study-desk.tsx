@@ -24,11 +24,11 @@ export function StudyDesk() {
 
   const subjectCounts = useMemo(() => {
     const counts: Record<Subject, number> = {
-      Mathematics: 0,
-      Physics: 0,
-      Biology: 0,
       History: 0,
-      Chemistry: 0,
+      Polity: 0,
+      Science: 0,
+      'Current Affairs': 0,
+      Geography: 0,
     }
     notes.forEach(note => {
       counts[note.subject]++
