@@ -1,4 +1,9 @@
-export type Subject = 'Mathematics' | 'Physics' | 'Biology' | 'History' | 'Chemistry'
+export type Subject =
+  | 'History'
+  | 'Current Affairs'
+  | 'Geography'
+  | 'Science'
+  | 'Polity'
 
 export interface Note {
   id: string
@@ -10,7 +15,13 @@ export interface Note {
   updatedAt: string
 }
 
-export const SUBJECTS: Subject[] = ['History', 'Current Affairs', 'Geography', 'Science', 'Polity']
+export const SUBJECTS: Subject[] = [
+  'History',
+  'Current Affairs',
+  'Geography',
+  'Science',
+  'Polity',
+]
 
 export const SUBJECT_COLORS: Record<Subject, { bg: string; border: string; text: string; light: string }> = {
   Current Affairs: {
