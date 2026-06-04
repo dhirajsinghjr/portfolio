@@ -19,7 +19,7 @@ export const SUBJECT_COLORS: Record<Subject, { bg: string; border: string; text:
     text: 'text-blue-700',
     light: 'bg-blue-100',
   },
-  Physics: {
+  Geography: {
     bg: 'bg-orange-500',
     border: 'border-orange-500',
     text: 'text-orange-700',
