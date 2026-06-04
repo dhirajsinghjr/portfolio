@@ -10,10 +10,10 @@ export interface Note {
   updatedAt: string
 }
 
-export const SUBJECTS: Subject[] = ['Mathematics', 'Physics', 'Biology', 'History', 'Chemistry']
+export const SUBJECTS: Subject[] = ['History', 'Current Affairs', 'Geography', 'Science', 'Polity']
 
 export const SUBJECT_COLORS: Record<Subject, { bg: string; border: string; text: string; light: string }> = {
-  Mathematics: {
+  Current Affairs: {
     bg: 'bg-blue-500',
     border: 'border-blue-500',
     text: 'text-blue-700',
